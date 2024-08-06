@@ -1,0 +1,162 @@
+<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			 margin:0;
+			 font-family: Arial;
+			 padding: 10px;
+			 background-image: url();
+		}
+		/*style the header */
+		.header {
+			background-color: white;
+			padding: 20px;
+			text-align: center;
+			color: black;
+		}
+		.header h1 {
+			font-size: 90px;
+		}
+		/*style the top navigation bar*/
+		.topnav {
+			overflow: hidden;
+			background-color: black;
+		}
+		/* style the topnav links */
+		.topnav a {
+			float: left;
+			display: block;
+			color: blue;
+			text-align: center;
+			padding: 15px 16px;
+			text-decoration: none;
+		}
+		/*Change color on hover*/
+		.topnav a :hover {
+			background-color: black;
+			color:white;
+		}
+		/* Create two unequal columns that floats next to each other */
+		/* left column */
+		.leftcolumn {
+			float: left;
+			width: 75%;
+		}
+		/* right column */
+		.rightcolumn {
+			float:left;
+			width: 25%;
+			background-color: white;
+			padding-left: 20px;
+		}
+		/* Fake image */
+		.fakeimg {
+			background-color: black;
+			width:100%;
+			padding: 20px;
+		}
+		/* add a card effect for articales */
+		.card {
+			background-color: white;
+			padding:20px;
+			marfin-top:20px;
+		}
+		/* Clear floats after the culumns */
+		.row::after {
+			content: "";
+			display: table;
+			clear:both;
+		}
+		/* Footer */
+		.footer {
+			padding: 20px;
+			text-align: right;
+			background: white;
+			margin-top: 20px;
+		}
+		/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of nexr to each other */
+		@media screen and (max-width: 500px) {
+			.leftcolumns, .rightcolumn {
+				width:100px;
+				padding:0;
+			}
+		}
+		/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top each other instead of next to each other */
+		@media screen and (max-width: 500px) {
+			.topnav a{
+				float: none;
+				width: 100%;
+
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<img src="D:\projek pkl\logo inoac.jfif"height="50%"width="50%">
+		<h2>PT INOAC POLYTECHNO</h2>
+	</div>
+
+	<div class="topnav">
+		<a href="index.html">HOME</a>
+		<a href="produk.html">PRODUK</a>
+		<a href="halaman login.html">HALAMAN LOGIN</a>
+		<a href="layanan.html" style="float: right;">LAYANAN</a>
+	</div>
+	<div class="row">
+		<div class="leftcolumn">
+			<div class="card">
+				<h2>PT INOAC POLYTECHNO</h2>
+				<h5></h5>
+				<marquee direction="right"><img src="D:\projek pkl\pt inoac.jpg.jfif"height="95%"width="95%"></marquee>
+				<h2>PT INOAC POLYTECHNO PRODUKSI APA?</h2>
+				<p>PT INOAC POLYTEHCNO bergerak di bidang produksi kasur,otomotif seperti bodi mobil,motor, dan lain sebagainya,namun disini saya hanya mempromosikan produk kasurnya saja</p>
+			</div>
+			<div class="card">
+				<h2>PEGAWAI/PEKERJA PT INOAC POLYTECHNO</h2>
+				<h5></h5>
+				<img src="D:\projek pkl\pekerja inoac.jpeg"height="100%"width="100%">
+				<h2>PEGAWAI/PEKERJA PT INOAC DI BAGI MENJADI BEBERAPA BAGIAN DI ANTARA LAIN:</h2>
+				<p>1.MIS<br>
+				   2.SAD<br>
+				   3.HRD & GA<br>
+				   4.PURCHASING<br>
+				   5.SALES AUTO<br>
+				   6.OMCD<br>
+				   7.HSE<br>
+				   8.COSTING<br>
+				   9.QUALITY<br>
+				   10.OPERATOR DAN LAIN SEBAGAINYA</p>
+			</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<img src="D:\projek pkl\gerbang inoac.jpg"height="125"width="113%">
+			<h2> APA PERSYARATAN KERJA DI PT INOAC POLYTECHNO?</h2>
+			<p>1.Surat Lamaran Kerja.<br>
+               2.Daftar Riwayat Hidup (CV).<br>
+               3.Ijazah dan Transkrip Nilai.<br>
+               4.KTP dan Kartu Keluarga.<br>
+               5.Pas Foto Terbaru.<br>
+               6.Sertifikat.<br>
+               7.Portofolio.<br>
+               8.Bukti Pengalaman Kerja.</br></p>
+		</div>
+		<div class="card">
+			<h3>PAKAIAN DI PT INOAC POLYTECHNO</h3><br>
+			<P>menggunakan baju biru milik perusahan dan menggunakan celana hitam/bebas asal sopan</P>
+			<img src="D:\projek pkl\pegawai inoac.jpeg"height="50%"width="100%"
+		</div>
+		<div class="card">
+			<p>BILA INGIN MENDAFTAR KARJA DISI HUBUNGI NOMOR DIBAWAH INI</p>
+			<img src="D:\projek pkl\logo wa.png"height="15%"width="30%">
+		<h4>0819 1989 0106</h4>
+		</div>
+	</div>
+</div>
+<div class="footer"
+</div>
+</body>
+	</html>

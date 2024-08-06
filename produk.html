@@ -1,0 +1,153 @@
+<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			 margin:0;
+			 font-family: Arial;
+			 padding: 10px;
+			 background-image: url();
+		}
+		/*style the header */
+		.header {
+			background-color: white;
+			padding: 20px;
+			text-align: center;
+			color: black;
+		}
+		.header h1 {
+			font-size: 90px;
+		}
+		/*style the top navigation bar*/
+		.topnav {
+			overflow: hidden;
+			background-color: black;
+		}
+		/* style the topnav links */
+		.topnav a {
+			float: left;
+			display: block;
+			color: blue;
+			text-align: center;
+			padding: 15px 16px;
+			text-decoration: none;
+		}
+		/*Change color on hover*/
+		.topnav a :hover {
+			background-color: black;
+			color:white;
+		}
+		/* Create two unequal columns that floats next to each other */
+		/* left column */
+		.leftcolumn {
+			float: left;
+			width: 75%;
+		}
+		/* right column */
+		.rightcolumn {
+			float:left;
+			width: 25%;
+			background-color: white;
+			padding-left: 20px;
+		}
+		/* Fake image */
+		.fakeimg {
+			background-color: black;
+			width:100%;
+			padding: 20px;
+		}
+		/* add a card effect for articales */
+		.card {
+			background-color: white;
+			padding:20px;
+			marfin-top:20px;
+		}
+		/* Clear floats after the culumns */
+		.row::after {
+			content: "";
+			display: table;
+			clear:both;
+		}
+		/* Footer */
+		.footer {
+			padding: 20px;
+			text-align: right;
+			background: white;
+			margin-top: 20px;
+		}
+		/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of nexr to each other */
+		@media screen and (max-width: 500px) {
+			.leftcolumns, .rightcolumn {
+				width:100px;
+				padding:0;
+			}
+		}
+		/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top each other instead of next to each other */
+		@media screen and (max-width: 500px) {
+			.topnav a{
+				float: none;
+				width: 100%;
+
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<img src="D:\projek pkl\kasur juragan.png"height="110%"width="100%">
+		<marquee direction="right"><h2>PRODUK KASUR</h2></marquee>
+	</div>
+
+	<div class="topnav">
+		<a href="index.html">HOME</a>
+		<a href="produk.html">PRODUK</a>
+		<a href="halaman login.html">HALAMAN LOGIN</a>
+		<a href="layanan.html" style="float: right;">LAYANAN</a>
+	</div>
+	<div class="row">
+		<div class="leftcolumn">
+			<div class="card">
+				<h2></h2>
+				<h5></h5>
+				<img src="D:\projek pkl\kasur busa.jpg"height="100%"width="100%">
+				<p></p>
+				<p></p>
+			</div>
+			<div class="card">
+				<h2></h2>
+				<h5></h5>
+				<img src="D:\projek pkl\kasur grey.webp"height="100%"width="100%">
+				<p></p>
+				<p></p>
+			</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<img src="D:\projek pkl\kasur inoac.png"height="300px"width="300px">
+			<h2></h2>
+			<p></p>
+		</div>
+		<div class="card">
+			<h3></h3><br>
+			<P></P>
+			<img src="D:\projek pkl\kasur kuning.jpg"height="50%"width="100%"
+		</div><br>
+		<div class="card">
+			<h3></h3><br>
+			<P></P>
+			<img src="D:\projek pkl\motif.jpg"height="50%"width="100%"
+		</div>
+		<div class="rightcolumn">
+		<div class="card">
+			<img src="D:\projek pkl\kasur merah.jpg"height="257px"width="257px">
+			<p><small>BILA INGIN MEMESAN HUBUNGI NOMOR DIBAWAH INI</small></p>
+			<P>081919890106</P>
+			<P><small><a href="https://www.facebook.com/profile.php?id=61558576457158">https://www.facebook.com/profile.php?id=61558576457158</a></small></P>
+		</div>
+	</div>
+</div>
+<div class="footer"
+</div>
+</body>
+	</html>

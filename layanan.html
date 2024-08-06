@@ -1,0 +1,149 @@
+<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			 margin:0;
+			 font-family: Arial;
+			 padding: 10px;
+			 background-image: url();
+		}
+		/*style the header */
+		.header {
+			background-color: white;
+			padding: 20px;
+			text-align: center;
+			color: black;
+		}
+		.header h1 {
+			font-size: 90px;
+		}
+		/*style the top navigation bar*/
+		.topnav {
+			overflow: hidden;
+			background-color: black;
+		}
+		/* style the topnav links */
+		.topnav a {
+			float: left;
+			display: block;
+			color: blue;
+			text-align: center;
+			padding: 15px 16px;
+			text-decoration: none;
+		}
+		/*Change color on hover*/
+		.topnav a :hover {
+			background-color: black;
+			color:white;
+		}
+		/* Create two unequal columns that floats next to each other */
+		/* left column */
+		.leftcolumn {
+			float: left;
+			width: 75%;
+		}
+		/* right column */
+		.rightcolumn {
+			float:left;
+			width: 25%;
+			background-color: white;
+			padding-left: 20px;
+		}
+		/* Fake image */
+		.fakeimg {
+			background-color: black;
+			width:100%;
+			padding: 20px;
+		}
+		/* add a card effect for articales */
+		.card {
+			background-color: white;
+			padding:20px;
+			marfin-top:20px;
+		}
+		/* Clear floats after the culumns */
+		.row::after {
+			content: "";
+			display: table;
+			clear:both;
+		}
+		/* Footer */
+		.footer {
+			padding: 20px;
+			text-align: right;
+			background: white;
+			margin-top: 20px;
+		}
+		/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of nexr to each other */
+		@media screen and (max-width: 500px) {
+			.leftcolumns, .rightcolumn {
+				width:100px;
+				padding:0;
+			}
+		}
+		/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top each other instead of next to each other */
+		@media screen and (max-width: 500px) {
+			.topnav a{
+				float: none;
+				width: 100%;
+
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<img src="D:\projek pkl\logo inoac.jfif"height="100%"width="100%">
+		<h2>LAYANAN</h2>
+	</div>
+
+	<div class="topnav">
+		<a href="index.html">HOME</a>
+		<a href="produk.html">PRODUK</a>
+		<a href="halaman login.html">HALAMAN LOGIN</a>
+		<a href="layanan.html" style="float: right;">LAYANAN</a>
+	</div>
+
+	
+	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Layanan Kami</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                
+            </ul>
+        </nav>
+        <div class="logo">
+            
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>SELAMAT DATANG DI PROMOSI PRODUK KAMI</h1>
+            <h4>Tentang Produk Kami</h4>
+            <P>Kami menawarkan produk berkualitas tinggi yang dirancang untuk memenuhi kebutuhan Anda.Produk kami terbuat dari bahan terbaik dan dirancang untuk memberikan pengalam yang luar biasa</P>
+            <a href="services.html" class="cta-button">Explore Our Services</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Layanan Kami. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
